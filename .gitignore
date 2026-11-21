@@ -1,0 +1,14 @@
+# Terraform working directories and local state
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+.terraform.tfstate.lock.info
+crash.log
+crash.*.log
+
+# Python local artifacts
+__pycache__/
+*.pyc
