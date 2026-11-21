@@ -11,6 +11,5 @@ output "iam_user_console_sign_in_url" {
 output "iam_user_console_password" {
   description = "Generated console password for tuser."
   value       = aws_iam_user_login_profile.tuser.password
-  # for demo purposes, we are not marking this output as sensitive
-  # sensitive   = true
+  sensitive   = true
 }
